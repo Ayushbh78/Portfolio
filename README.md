@@ -1,87 +1,56 @@
-# Ayush Bhardwaj — Portfolio
+# Ayush Bhardwaj — AI Engineer Portfolio
 
-A personal portfolio website for **Ayush Bhardwaj**, AI Engineer & ML Developer, showcasing skills, projects, experience, certifications, and achievements — including GATE DA 2026 qualification (Score 526, AIR 2096).
+Personal portfolio of **Ayush Bhardwaj** — final-year B.Tech Artificial Intelligence student at Invertis University, GATE DA 2026 qualified (Score 526, AIR 2096), building intelligent systems across Machine Learning, Deep Learning, Generative AI, and Data Science.
 
-🔗 **Live Demo:** _add your deployed link here (GitHub Pages / Netlify / Vercel)_
+**🔗 Live Site:** [portfolio-ayush-bhardwaj.netlify.app](https://portfolio-ayush-bhardwaj.netlify.app/)
 
-## Preview
+## About Me
 
-A clean, light theme (white + green accents, black text) with a subtle animated neural-network background, custom cursor, smooth scroll-reveal animations, a project filter, and a command palette (`Ctrl/Cmd + K`).
+I'm passionate about building intelligent systems that solve real-world problems — from RAG-based enterprise knowledge assistants to CNNs for medical imaging and multi-agent AI pipelines with LangGraph. Currently seeking AI Engineering, ML, Data Science, and Generative AI roles.
+
+## Highlights
+
+- 🏆 **GATE DA 2026 Qualified** — Score 526, AIR 2096
+- ⭐ **Grade O (Outstanding)** — AICTE AI-ML Virtual Internship, Google for Developers
+- 💼 2 industry internships in Machine Learning & Data Science
+- 📜 10+ IBM certifications across ML, Python, SQL, and Generative AI
+- 🎯 7+ AI projects spanning NLP, Computer Vision, Generative AI, and Embedded Systems
+
+## What's on the Site
+
+- **About** — background, education, and GATE DA 2026 achievement
+- **Skills** — Machine Learning, Deep Learning, Generative AI, Data Science, MLOps, and more
+- **Experience** — ML/Data Science internships at EduSkills Academy and Google for Developers
+- **Projects** — Multi-Agent AI Research Assistant, RAG Knowledge Assistant, Brain Tumor Detection, AI Resume Analyzer, and more
+- **Certifications** — IBM, EduSkills, and university-level credentials
+- **Achievements** — GATE DA 2026, AICTE Grade O, and competition participation
+- **Contact** — email, phone, LinkedIn, GitHub
 
 ## Project Structure
 
 ```
 .
-├── index.html          # Main HTML markup
+├── index.html          # Page markup
 ├── css/
-│   └── style.css       # All styles (theme, layout, animations, responsive rules)
+│   └── style.css       # Styling and theme
 ├── js/
-│   └── script.js       # All interactivity (cursor, canvas, counters, filters, command palette, etc.)
+│   └── script.js       # Interactivity (canvas, counters, filters, command palette)
 ├── assets/
-│   └── profile.jpg     # Profile photo used in the hero and about sections
+│   └── profile.jpg     # Profile photo
 └── README.md
 ```
 
-## Features
-
-- Responsive layout (desktop, tablet, mobile)
-- Animated neural-network canvas background
-- Custom cursor with hover states
-- Typing animation for role titles
-- Animated counters (GATE score, projects, certificates, etc.)
-- Scroll-triggered fade-up reveal animations
-- Filterable project grid (Generative AI, ML/DL, Web Dev, Hardware)
-- Command palette / quick search (`Ctrl/Cmd + K`)
-- Working contact form (opens the visitor's email client via `mailto:`)
-- Back-to-top button and auto-hiding navbar on scroll
-- Hidden Konami code easter egg
-
-## Getting Started
-
-No build tools or dependencies required — it's plain HTML, CSS, and JavaScript.
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Ayushbh78/<your-repo-name>.git
-   cd <your-repo-name>
-   ```
-
-2. **Open it locally**
-   - Simply open `index.html` in your browser, **or**
-   - Serve it with a local dev server (recommended, avoids any relative-path issues):
-     ```bash
-     # Python 3
-     python -m http.server 8000
-     # then visit http://localhost:8000
-     ```
-
-## Customizing
-
-- **Colors / theme:** edit the CSS variables at the top of `css/style.css` inside `:root { ... }`.
-- **Content (name, bio, skills, projects, experience, certifications):** edit the corresponding sections directly in `index.html`.
-- **Profile photo:** replace `assets/profile.jpg` with your own image (keep the same filename, or update the two `<img>` `src` attributes in `index.html`).
-- **Contact links:** update the email, phone, LinkedIn, and GitHub links in the `#contact` section and footer.
-
-## Deployment
-
-This is a static site, so it can be hosted for free on any static host:
-
-- **GitHub Pages:** Settings → Pages → set source to the `main` branch (root), then visit `https://<username>.github.io/<repo-name>/`.
-- **Netlify / Vercel:** drag-and-drop the project folder or connect the repo — no build command needed.
-
 ## Tech Stack
 
-- HTML5
-- CSS3 (custom properties, grid, flexbox, animations)
-- Vanilla JavaScript (no frameworks or build step)
-- Google Fonts: [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque) & [Geist Mono](https://fonts.google.com/specimen/Geist+Mono)
+HTML5 · CSS3 · Vanilla JavaScript · [Bricolage Grotesque](https://fonts.google.com/specimen/Bricolage+Grotesque) & [Geist Mono](https://fonts.google.com/specimen/Geist+Mono) fonts · Deployed on Netlify
 
-## License
+## Note
 
-Free to use as a template for your own portfolio. Please swap out the personal content (name, photo, projects, contact details) before publishing your own version.
+This is a personal portfolio project maintained for my own use — it's not intended as a public template or for others to clone/reuse.
 
 ## Contact
 
 - **Email:** ayushavdhesh98@gmail.com
+- **Phone:** +91 6397411069
 - **LinkedIn:** [linkedin.com/in/ayush-bhardwaj](https://www.linkedin.com/in/ayush-bhardwaj-22589b2a8)
 - **GitHub:** [github.com/Ayushbh78](https://github.com/Ayushbh78)
