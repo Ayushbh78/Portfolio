@@ -12,7 +12,6 @@
 </head>
 <body>
 <div id="loading"><div class="load-logo">AB.</div><div class="load-bar"><div class="load-fill"></div></div><div class="load-sub">INITIALIZING ...</div></div>
-<div id="cur"></div><div id="cur-ring"></div>
 <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
 <canvas id="cv"></canvas>
 <div id="cmd-ov" onclick="closeCmd(event)"><div id="cmd-box"><input id="cmd-in" placeholder="Search sections, projects, skills..." oninput="filterCmd(this.value)" onkeydown="cmdKey(event)" autocomplete="off"/><div class="cmd-results" id="cmd-res"></div></div></div>
@@ -249,7 +248,7 @@
       <div class="f-group"><label class="f-label">Your Name</label><input class="f-input" id="fn" type="text" placeholder="John Doe"/></div>
       <div class="f-group"><label class="f-label">Email</label><input class="f-input" id="fe" type="email" placeholder="john@example.com"/></div>
       <div class="f-group"><label class="f-label">Message</label><textarea class="f-textarea" id="fm" placeholder="Hi Ayush, I'd like to discuss..."></textarea></div>
-      <button class="btn-grad" onclick="sendMsg()" style="align-self:flex-start;cursor:none">Send Message →</button>
+      <button class="btn-grad" onclick="sendMsg()" style="align-self:flex-start">Send Message →</button>
     </div>
   </div>
 </section>
