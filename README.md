@@ -51,6 +51,5 @@ This is a personal portfolio project maintained for my own use — it's not inte
 ## Contact
 
 - **Email:** ayushavdhesh98@gmail.com
-- **Phone:** +91 6397411069
 - **LinkedIn:** [linkedin.com/in/ayush-bhardwaj](https://www.linkedin.com/in/ayush-bhardwaj-22589b2a8)
 - **GitHub:** [github.com/Ayushbh78](https://github.com/Ayushbh78)
