@@ -21,7 +21,7 @@ a,button,.pf-btn,.proj-card,.cmd-row,#btt,.hamburger{cursor:pointer;}
 /* LOADING */
 #loading{position:fixed;inset:0;background:var(--bg);z-index:9999;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2rem;transition:opacity .6s;}
 #loading.hide{opacity:0;pointer-events:none;}
-.load-logo{font-size:4rem;font-weight:800;letter-spacing:-.05em;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.load-logo{font-size:clamp(1.6rem,7vw,3.2rem);font-weight:800;letter-spacing:.04em;text-align:center;padding:0 1rem;white-space:nowrap;background:var(--grad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 .load-bar{width:200px;height:2px;background:var(--surface2);border-radius:1px;overflow:hidden;}
 .load-fill{height:100%;background:var(--grad);animation:lf 1.8s ease forwards;}
 @keyframes lf{from{width:0}to{width:100%}}
