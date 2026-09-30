@@ -54,14 +54,19 @@ function fp(cat,btn){
   document.querySelectorAll('.proj-card').forEach(c=>{c.style.display=cat==='all'||c.dataset.cat===cat?'':'none';});
 }
 
-// CONTACT
-function sendMsg(){
-  const n=document.getElementById('fn').value.trim(),e=document.getElementById('fe').value.trim(),m=document.getElementById('fm').value.trim();
-  if(!n||!e||!m){showToast('Please fill all fields.');return;}
+// CONTACT MODAL
+function openContactModal(){document.getElementById('contact-ov').classList.add('open');document.getElementById('cn')?.focus();}
+function closeContactModal(e){if(!e||e.target===document.getElementById('contact-ov'))document.getElementById('contact-ov').classList.remove('open');}
+function sendContactModal(){
+  const n=document.getElementById('cn').value.trim(),e=document.getElementById('ce').value.trim(),w=document.getElementById('cw').value.trim(),p=document.getElementById('cp').value,m=document.getElementById('cm').value.trim();
+  if(!n||!e||!m){showToast('Please fill all required fields.');return;}
   if(!/[^\s]+@[^\s]+\.[^\s]+/.test(e)){showToast('Please enter a valid email.');return;}
-  window.location.href='mailto:ayushavdhesh98@gmail.com?subject=Portfolio+Contact+from+'+encodeURIComponent(n)+'&body='+encodeURIComponent(m+'\n\nFrom: '+n+'\nEmail: '+e);
+  const body='Purpose: '+p+(w?'\nWork/Organization: '+w:'')+'\n\n'+m+'\n\nFrom: '+n+'\nEmail: '+e;
+  window.location.href='mailto:ayushavdhesh98@gmail.com?subject=Portfolio+Contact+from+'+encodeURIComponent(n)+'&body='+encodeURIComponent(body);
   showToast('Opening mail client...');
+  closeContactModal();
 }
+document.addEventListener('keydown',e=>{if(e.key==='Escape')document.getElementById('contact-ov')?.classList.remove('open');});
 function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000);}
 
 // BACK TOP
