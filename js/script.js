@@ -88,6 +88,7 @@ function toggleNav(){
 // CMD PALETTE
 const CMD=[
   {l:'About Me',s:'about',k:'Section'},{l:'Skills',s:'skills',k:'Section'},{l:'Experience',s:'experience',k:'Section'},
+  {l:'Education',s:'education',k:'Section'},
   {l:'Projects',s:'projects',k:'Section'},{l:'Certifications',s:'certifications',k:'Section'},
   {l:'Achievements',s:'achievements',k:'Section'},{l:'Contact',s:'contact',k:'Section'},
   {l:'Multi-Agent AI Research Assistant',s:'projects',k:'Project'},{l:'RAG Knowledge Assistant',s:'projects',k:'Project'},
