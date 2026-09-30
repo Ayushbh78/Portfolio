@@ -247,6 +247,16 @@ footer{padding:2.5rem 4rem;border-top:1px solid var(--border);display:flex;justi
 #cmd-box{width:540px;background:var(--surface2);border:1px solid rgba(22,163,74,.28);border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.5);}
 #cmd-in{width:100%;padding:1rem 1.2rem;background:transparent;border:none;border-bottom:1px solid var(--border);color:var(--text);font-family:'Geist Mono',monospace;font-size:.85rem;outline:none;}
 .cmd-results{max-height:300px;overflow-y:auto;}
+
+/* CONTACT MODAL */
+#contact-ov{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:500;display:none;align-items:center;justify-content:center;backdrop-filter:blur(8px);padding:1.5rem;}
+#contact-ov.open{display:flex;}
+#contact-box{width:460px;max-width:100%;max-height:88vh;overflow-y:auto;background:var(--surface2);border:1px solid rgba(22,163,74,.28);border-radius:16px;box-shadow:0 20px 60px rgba(0,0,0,.5);}
+.contact-modal-hdr{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.5rem;border-bottom:1px solid var(--border);}
+.contact-modal-title{font-size:1.05rem;font-weight:700;letter-spacing:-.02em;}
+.contact-modal-close{background:none;border:none;font-size:1.5rem;line-height:1;color:var(--muted);cursor:pointer;padding:0;transition:color .18s ease;}
+.contact-modal-close:hover{color:var(--indigo);}
+select.f-input{appearance:none;-webkit-appearance:none;cursor:pointer;}
 .cmd-row{padding:.8rem 1.2rem;cursor:pointer;display:flex;align-items:center;gap:.8rem;font-size:.8rem;transition:background .15s;color:var(--text);}
 .cmd-row:hover,.cmd-row.active{background:rgba(22,163,74,.11);color:var(--violet);}
 .cmd-k{font-family:'Geist Mono',monospace;font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);}
